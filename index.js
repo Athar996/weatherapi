@@ -34,4 +34,4 @@ button.addEventListener('submit', function(){
     .then(res => res.json())
     .then(data => console.log(data))
     
-});
+})
