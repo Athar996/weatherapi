@@ -34,6 +34,8 @@ button.addEventListener('click', function(){
     fetch('api.openweathermap.org/data/2.5/forecast/daily?q='+countrystate.value+'&appid=key')
     .then(res => res.json())
     .then(data => console.log(data))
+
+    .catch(err => alert("wrong"))
     
 })
 
