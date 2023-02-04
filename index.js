@@ -28,14 +28,10 @@ var temp = document.querySelector('.temp');
 var pressure = document.querySelector('.pressure');
 var windspeed = document.querySelector('.windspeed');
 
-
-button.addEventListener('click',function(){
+button.addEventListener('submit', function(){
    
     fetch('api.openweathermap.org/data/2.5/forecast/daily?q='+countrystate.value+'&appid=key')
     .then(res => res.json())
     .then(data => console.log(data))
-
-    .catch(err => alert("wrong"))
     
-})
-
+});
