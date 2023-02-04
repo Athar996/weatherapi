@@ -32,7 +32,7 @@ var windspeed = document.querySelector('.windspeed');
 
 button.addEventListener('submit',function(){
    
-    fetch(`https://api.openweathermap.org/data/2.5/forecast/daily?q='+countrystate.value+'&appid=${API_KEY}`)
+    fetch(`https://api.openweathermap.org/data/2.5/forecast/daily?q=`+countrystate.value+`&appid=${API_KEY}`)
     .then(res => res.json())
     .then(data => console.log(data))
     
