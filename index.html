@@ -10,25 +10,27 @@
 </head>
 </head>
 <body>
-        <div class="part1">
-            <div class="location">
-                <input type="text" class="countrystate" placeholder="Enter City Name" name="countrystate" value="">
-                <button type="submit">Submit</button>
-             </div> <br>
-            <div class="time" id="time">
-                <div id="hour"></div> :  <div id="minute">--</div>
-                </div> <br>
-            <div class="daydate" id="daydate"></div> <br>
-            <div class="weatherdetails">
-                <!-- <div> <p  class="city" id="" style="color:#3693bf";></p> </div> -->
-                <div> Temperature <p  class="temp" id="temp_mon">--</p> </div>
-                <div> Max temp <p  class="tempmax" id="">--</p> </div>
-                <div> Min temp <p  class="tempmin" id="">--</p> </div>
-               <div> Humidity: <p  class="humidty" id="humidity_mon">--</p>  </div>
-               <div> Windspeed: <p  class="windspeed" id="windspeed_mon">--</p> </div>
-            </div>
-        </div> <br>
-
+    <div class="part1">
+        <div class="location">
+            <input type="text" class="countrystate" placeholder="Enter City Name" name="countrystate" value="">
+            <!-- <input type="submit" onclick="api()" class= "button" value="Submit"> -->
+            <button type="submit">Submit</button>
+         </div> <br>
+        <div class="time" id="time">
+            <div id="hour"></div> :  <div id="minute">--</div>
+            </div> <br>
+        <div class="daydate" id="daydate"></div> <br>
+        <div class="weatherdetails">
+            <div> <p  class="city" id="">enter location</p> </div>
+            <div> <p  class="icon" id=""><img src="images/rain.png" alt=""></p> </div>
+            <div> Temperature <p  class="temp" id="">--</p> </div>
+            <div> Max temp <p  class="tempmax" id="">--</p> </div>
+            <div> Min temp <p  class="tempmin" id="">--</p> </div>
+           <div> Humidity: <p  class="humidty" id="">--</p>  </div>
+           <div> Windspeed: <p  class="windspeed" id="">--</p> </div>
+        </div>
+    </div> <br>
+<!-- 
        <div class="part2">
             <div id="monday" class="weekdays"> <b> monday </b> 
                <div> <img src="weathericon.png" alt="clouds"> </div>
@@ -78,13 +80,13 @@
                 <div> Humidity: <p id="humidity_sun"></p>  </div>
                 <div> Windspeed: <p id="windspeed_sun"></p> </div>
             </div>
-        </div>
+        </div> -->
 
-        <footer>
+        <!-- <footer>
             <p>
                 This page is Responsive @No Copyrights</h3>
             </p>
-        </footer>
+        </footer> -->
 
         <script src="index.js"></script>
 </html>
