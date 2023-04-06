@@ -50,6 +50,8 @@
    
    searchbtn.addEventListener("click",()=>{
        api(searchbox.value);
+       document.querySelector(".city").style.removeProperty('color');
+
    })
    api();
    
