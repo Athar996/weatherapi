@@ -41,6 +41,8 @@
    
        document.querySelector(".city").innerHTML=data.name;
        document.querySelector(".temp").innerHTML=Math.round(data.main.temp) + "°C";
+       document.querySelector(".tempmax").innerHTML=data.main.temp_max + "°C";
+       document.querySelector(".tempmin").innerHTML=data.main.temp_min + "°C";
        document.querySelector(".humidty").innerHTML=data.main.humidity + "%";
        document.querySelector(".windspeed").innerHTML=data.wind.speed + "km/hr";
        
