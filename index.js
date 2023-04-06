@@ -22,18 +22,24 @@ document.getElementById("daydate").innerHTML = days[weekday.getDay()] + " " + da
 
 //weather api
 
-const API_KEY ='49cc8c821cd2aff9af04c9f98c36eb74';
+const API_KEY ='daf5f6efa6d6bfd73aa0fdec1261ee00';
 
 var button = document.querySelector('.button');
-var countrystate = document.querySelector('.countrystate');
-var temp = document.querySelector('.temp');
-var pressure = document.querySelector('.pressure');
-var windspeed = document.querySelector('.windspeed');
+// var countrystate = document.querySelector('.countrystate');
+// var temp = document.querySelector('.temp');
+// var pressure = document.querySelector('.pressure');
+// var windspeed = document.querySelector('.windspeed');
 
 button.addEventListener('submit',function(){
    
-    fetch(`https://api.openweathermap.org/data/2.5/forecast/daily?q=`+countrystate.value+`&appid=${API_KEY}`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?units=metric&q=`+countrystate.value+`&appid=${API_KEY}`)
     .then(res => res.json())
     .then(data => console.log(data))
+
+    document.querySelector('.countrystate').innerHTML=data.name;
+    document.querySelector('.temp').innerHTML=data.main.temp + "°C";
+    document.querySelector('.humidty').innerHTML=data.main.humidity + "%";
+    document.querySelector('.windspeed').innerHTML=data.wind.speed + "km/hr";
     
 })
+.catch(error => console.error(error));
