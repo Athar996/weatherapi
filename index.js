@@ -48,19 +48,19 @@
        document.querySelector(".windspeed").innerHTML=data.wind.speed + "km/hr";
    
        if(data.weather[0].main=="Clouds"){
-           weatherIcon.src = "tree/master/images/cloud.png";
+           weatherIcon.src = "cloud.png";
        }
        else if(data.weather[0].main=="Clear"){
-           weatherIcon.src = "tree/master/images/clear.png";
+           weatherIcon.src = "clear.png";
        }
        else if(data.weather[0].main=="Rain"){
-           weatherIcon.src = "tree/master/images/rain.png";
+           weatherIcon.src = "rain.png";
        }
        else if(data.weather[0].main=="Drizzle"){
-           weatherIcon.src = "tree/master/images/drizzle.png";
+           weatherIcon.src = "drizzle.png";
        }
        else if(data.weather[0].main=="Mist"){
-           weatherIcon.src = "tree/master/images/mist.png";
+           weatherIcon.src = "mist.png";
        }
        
    }
