@@ -39,7 +39,11 @@
    
        var data = await res.json();
    
-       console.log(data);    
+       console.log(data); 
+       if(data.message=="city not found")
+       {
+          alert("enter valid city name");
+       }   
    
        document.querySelector(".city").innerHTML=data.name;
        document.querySelector(".temp").innerHTML=Math.round(data.main.temp) + "°C";
