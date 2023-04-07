@@ -48,7 +48,7 @@
        document.querySelector(".windspeed").innerHTML=data.wind.speed + "km/hr";
    
        if(data.weather[0].main=="Clouds"){
-           weatherIcon.src = "cloud.png";
+           weatherIcon.src = "clouds.png";
        }
        else if(data.weather[0].main=="Clear"){
            weatherIcon.src = "clear.png";
@@ -62,7 +62,12 @@
        else if(data.weather[0].main=="Mist"){
            weatherIcon.src = "mist.png";
        }
-       
+       else if(data.weather[0].main=="Humidity"){
+        weatherIcon.src = "humidity.png";
+        }
+        else if(data.weather[0].main=="Wind"){
+            weatherIcon.src = "wind.png";
+        }
    }
    
    searchbtn.addEventListener("click",()=>{

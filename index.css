@@ -1,335 +1,242 @@
-@media(min-width:500px) and (max-width:10000px)
-{
-/* 
-div{
-    border: 3px solid red;
-} */
-body{
-    background-image:url(bgimage.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.part1
-{
-    /* border: 3px solid red; */
-    /* padding-left: 3%; */
-    text-align: center;
-}
-.location
-{
-    /* border: 3px solid red; */
-    /* font-size: 40px; */
-    font-weight: 700;
-    text-align: center;
-
-}
-
-.countrystate
-{
-    font-size:xx-large;
-    padding: 10px;
-    text-align: center;
-    border-radius: 20px;
-}
-button
-{
-    font-size: large;
-    /* padding: 1%; */
-    /* text-align: center; */
-    border: 3px solid black;
-
-}
-
-button:hover
-{
-    background-color: black;
-    color: white;
-    border: 3px solid black;
-
-}
-
-.time
-{
-/* border: 3px solid red; */
-font-size:50px;
-display: flex;
-justify-content: center;}
-
-#hour,#minute
-{
-    border: 3px solid black;
-    font-weight: bold;
-    /* font-style: italic; */
-}
-.daydate
-{
-/* border: 3px solid red; */
-font-size:50px;
-
-}
-
-.weatherdetails
-{
-border: 3px solid black;
-box-shadow: 10px 10px rgb(70, 62, 62);
-font-size:large;
-font-weight: bold;
-width: fit-content;
-margin: auto;
-padding: 1%;
-
-}
-
-.weatherdetails p
-{
-    display: inline;
-}
-
-
-.part2
-{
-    display: flex;
-    justify-content: space-evenly;
-    /* border: 3px solid red; */
-    height: fit-content;
-    width: 100%;
-}
-
-.part2 div
-{
-    border-top: 1px solid rgb(143, 128, 156);
-
-}
-
-
-
-.weekdays
-{
-    /* border: 3px solid red; */
-    width: 20%;
-    text-align: center;
-    height:fit-content;
-    margin: 5px;
-    padding: 5px;
-    background-color: rgb(89, 216, 203);
-    border-radius: 20px;
-
-}
-.weekdays b
-{
-    text-transform: uppercase;
-    margin-top: 0%;
-}
-.weekdays p{
-    display: inline;
-}
-.weekdays img{
-    width: 40%;
-    text-align: center;
-    border-radius: 20px;
-    /* border: 3px solid red; */
-}
-
-footer p{
-    text-align: center;
-    background-color: burlywood;
-    padding: 1%;
-    font-size: x-large;
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(min-width:51px) and (max-width:500px)
-
-{
-    body{
-        background-image:url(bgimage.jpg);
+@media(min-width:500px) and (max-width:10000px) {
+    body {
+        background-image: url(bgimage.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
 
-    .part1
-    {
+    .part1 {
         text-align: center;
     }
-    .location
-    {
-        /* border: 3px solid red; */
-        /* font-size: 40px; */
+
+    .location {
         font-weight: 700;
         text-align: center;
-    
+
     }
-    
-    .countrystate
-    {
-        font-size:medium;
+
+    .countrystate {
+        font-size: xx-large;
         padding: 10px;
         text-align: center;
         border-radius: 20px;
     }
-    button
-    {
+
+    button {
         font-size: large;
-        /* padding: 1%; */
-        /* text-align: center; */
         border: 3px solid black;
-    
+
     }
-    
-    button:hover
-    {
+
+    button:hover {
         background-color: black;
         color: white;
         border: 3px solid black;
-    
-    }
-    
-    .time
-    {
-    /* border: 3px solid red; */
-    font-size:50px;
-    display: flex;
-    justify-content: center;}
-    
-    #hour,#minute
-    {
-        border: 3px solid black;
-        font-weight: bold;
-        /* font-style: italic; */
-    }
-    .daydate
-    {
-    /* border: 3px solid red; */
-    font-size:20px;
-    
-    }
-    
-    .weatherdetails
-    {
-    border: 3px solid black;
-    box-shadow: 10px 10px rgb(70, 62, 62);
-    font-size:large;
-    font-weight: bold;
-    width: fit-content;
-    margin: auto;
-    padding: 1%;
-    
-    }
-    
-    .weatherdetails p
-    {
-        display: inline;
-    }
-    
-    
-    .part2
-    {
-        display: flex;
-        justify-content:start;
-        align-items: none;
-        overflow-y: scroll;
-        /* height: fit-content; */
-        /* width: 100%; */
 
     }
-    
-    .weekdays
-    {
-        /* border: 3px solid red; */
+
+    .time {
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #hour,
+    #minute {
+        border: 3px solid black;
+        font-weight: bold;
+    }
+
+    .daydate {
+        font-size: 50px;
+
+    }
+
+    .weatherdetails {
+        border: 3px solid black;
+        box-shadow: 10px 10px rgb(70, 62, 62);
+        font-size: large;
+        font-weight: bold;
+        width: fit-content;
+        margin: auto;
+        padding: 1%;
+
+    }
+
+    .weatherdetails p {
+        display: inline;
+    }
+
+
+    .part2 {
+        display: flex;
+        justify-content: space-evenly;
+        height: fit-content;
+        width: 100%;
+    }
+
+    .part2 div {
+        border-top: 1px solid rgb(143, 128, 156);
+
+    }
+
+    .weekdays {
         width: 20%;
         text-align: center;
-        height:fit-content;
+        height: fit-content;
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(89, 216, 203);
+        border-radius: 20px;
+
+    }
+
+    .weekdays b {
+        text-transform: uppercase;
+        margin-top: 0%;
+    }
+
+    .weekdays p {
+        display: inline;
+    }
+
+    .weekdays img {
+        width: 40%;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+    footer p {
+        text-align: center;
+        background-color: burlywood;
+        padding: 1%;
+        font-size: x-large;
+    }
+
+}
+
+
+
+
+@media(min-width:51px) and (max-width:500px) {
+    body {
+        background-image: url(bgimage.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .submitbutton {
+        padding-top: 5%;
+    }
+
+    .part1 {
+        text-align: center;
+    }
+
+    .location {
+        font-weight: 700;
+        text-align: center;
+
+    }
+
+    .countrystate {
+        font-size: medium;
+        padding: 10px;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+    button {
+        font-size: large;
+        padding: 1%;
+        border: 2px solid black;
+
+    }
+
+    button:hover {
+        background-color: black;
+        color: white;
+        border: 3px solid black;
+
+    }
+
+    .time {
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #hour,
+    #minute {
+        border: 3px solid black;
+        font-weight: bold;
+    }
+
+    .daydate {
+        font-size: 20px;
+
+    }
+
+    .weatherdetails {
+        border: 3px solid black;
+        box-shadow: 10px 10px rgb(70, 62, 62);
+        font-size: large;
+        font-weight: bold;
+        width: fit-content;
+        margin: auto;
+        padding: 1%;
+
+    }
+
+    .weatherdetails p {
+        display: inline;
+    }
+
+    .part2 {
+        display: flex;
+        justify-content: start;
+        align-items: none;
+        overflow-y: scroll;
+    }
+
+    .weekdays {
+        width: 20%;
+        text-align: center;
+        height: fit-content;
         margin: 5px;
         padding: 5px;
         background-color: rgb(89, 216, 203);
         border-radius: 15px;
-    
+
     }
-    .weekdays b
-    {
+
+    .weekdays b {
         text-transform: uppercase;
-        /* font-size: 10px; */
-        /* margin-top: 0%; */
     }
-    .weekdays p{
+
+    .weekdays p {
         display: inline;
 
     }
-    .weekdays img{
+
+    .weekdays img {
         width: 40%;
         text-align: center;
         border-radius: 20px;
-        /* border: 3px solid red; */
     }
 
 
-    .part2 div
-    {
+    .part2 div {
         font-size: 10px;
         border-top: 1px solid rgb(143, 128, 156);
     }
 
-    footer p{
+    footer p {
         text-align: center;
         background-color: burlywood;
         padding: 1%;
-        font-size:medium;
+        font-size: medium;
     }
 
 }
