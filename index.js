@@ -30,6 +30,7 @@
    var searchbox = document.querySelector(".location input");
    var searchbtn = document.querySelector(".location button");
    var weatherIcon = document.querySelector(".icon img");
+   let city = "hyderabad";
    
    async function api(city)
    {
